@@ -1,0 +1,29 @@
+* { padding:0; margin:0}
+.background {
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+#titlePage {
+    background-image: url("../images/background1.png");
+    opacity: 0.9;
+    position: absolute;
+}
+.title {
+    position: absolute;
+    font-family: "Quicksand", sans-serif;
+}
+#name {
+    font-weight: bold;
+    font-size: 120;
+    color: white;
+    left: 30;
+}
+#job {
+    font-size: 40;
+    color: #b40018;
+    top: 135;
+    left: 385;    
+}
