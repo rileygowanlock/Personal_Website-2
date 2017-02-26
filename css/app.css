@@ -6,24 +6,60 @@
     background-size: cover;
     position: relative;
 }
+.sepia {
+    -webkit-filter: contrast(220%);
+    filter: contrast(220%);
+}
 #titlePage {
-    background-image: url("../images/background1.png");
+    background-image: url("../images/background/background1.png");
     opacity: 0.9;
     position: absolute;
+    z-index: -2;
 }
 .title {
-    position: absolute;
+    position: relative;
     font-family: "Quicksand", sans-serif;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.banner {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0;
+    margin-left: -20px;
+    padding: 0;
 }
 #name {
-    font-weight: bold;
-    font-size: 120;
+    display: block;
+    font-weight: 500;
+    font-size: 8.8vw;
     color: white;
-    left: 30;
+    text-shadow: 2px 2px 20px #514a4a; /* #706666 */
 }
 #job {
-    font-size: 40;
-    color: #b40018;
-    top: 135;
-    left: 385;    
+    font-size: 2.7vw;
+    line-height: 3.4vw;
+    color: #cb1a2a; /* #b40018 */
+    text-align: right;
+    margin-top: -2.4vw;
+    text-shadow: 0.1px 0.1px 10px #a7a2a2;
+}
+#contact-group {
+    position: absolute;
+    bottom: 5px;
+    right: 50%;
+    margin-right: -70px;
+}
+.contact {
+    opacity: 0.9;
+    display: inline-block;
+    font-size: 45px;
+    padding: 7px 7px 0px 7px;
+}
+a, a:visited, a:active .contact{
+    color: #080808;
+    text-decoration: underline;
+}
+a:hover, a:focus .contact{
+    color: #cb1a2a;
 }
