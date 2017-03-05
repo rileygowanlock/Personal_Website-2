@@ -6,6 +6,9 @@
     background-size: cover;
     position: relative;
 }
+.about-me {
+    position: relative;
+}
 .sepia {
     -webkit-filter: contrast(220%);
     filter: contrast(220%);
@@ -21,7 +24,6 @@
     font-family: "Quicksand", sans-serif;
     display: inline-block;
     margin-left: 20px;
-    margin-top: -5px;
 }
 .banner {
     background-color: rgba(255, 255, 255, 0.2);
@@ -34,6 +36,7 @@
     font-weight: 500;
     font-size: 8.8vw;
     color: white;
+    margin-top: -5px;
     text-shadow: 2px 2px 20px #514a4a; /* #706666 */
 }
 #job {
@@ -44,22 +47,59 @@
     margin-top: -2.4vw;
     text-shadow: 0.1px 0.1px 10px #a7a2a2;
 }
+#about-me {
+    top: 100%;
+    position: relative;
+    font-size: 50;
+    font-weight: 500;
+    color: #cb1a2a;
+    padding: 5px;
+}
 #contact-group {
-    position: absolute;
     bottom: 5px;
     right: 50%;
     margin-right: -70px;
 }
 .contact {
+    position: relative;
     opacity: 0.9;
     display: inline-block;
-    font-size: 45px;
-    padding: 7px 7px 0px 7px;
+    font-size: 35px;
+    padding: 7px 10px 5px 7px;
 }
-a, a:visited, a:active .contact{
+a.contact, a.contact:visited, a.contact:active {
     color: #080808;
-    text-decoration: underline;
 }
-a:hover, a:focus .contact{
+a.contact:hover, a.contact:focus {
     color: #cb1a2a;
+}
+.top-bar, .top-bar ul {
+    background-color: #262626;
+    margin-top: 0;
+    width: 100%;
+    padding: 0.3em;
+}
+top-bar sticky is-at-top is-stuck {
+    margin-top: 0;
+}
+a.light, a.light:visited, a.light:active {
+    color: white;
+}
+a.light:hover, a.light:focus {
+    color: #cb1a2a;
+}
+.nav {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+.nav-title {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20;
+    display: inline-block;
+    width: 140px;
+    text-align: center;
 }
