@@ -50,14 +50,6 @@
     margin-top: -2.4vw;
     text-shadow: 0.1px 0.1px 10px #a7a2a2;
 }
-#about-me {
-    top: 100%;
-    position: relative;
-    font-size: 50;
-    font-weight: 500;
-    color: #cb1a2a;
-    padding: 5px;
-}
 #contact-group {
     bottom: 5px;
     right: 50%;
@@ -105,4 +97,141 @@ a.light:hover, a.light:focus {
     display: inline-block;
     width: 140px;
     text-align: center;
+}
+.nextPage {
+    background-color: white;
+}
+.about-text {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 16;
+    text-align: justify;
+}
+#h1 {
+    color: #cb1a2a;
+/*
+    position: absolute;
+    top: 70px;
+    left: 20px;
+*/
+/*    margin: 10% 0 0 20%;*/
+}
+#h2 {
+    color: #080808;
+    
+}
+.about-pics {
+    top: 0px;
+    right: 0px;
+    width: 60%;
+    height: 110%;
+    float: right;
+    background-image: url("../images/background/background.jpg");
+    /*background-color: #e8e8e8;*/
+}
+.page-break {
+    float: right;
+    height: 350px;
+}
+.self-img {
+    right: 290px;
+    top: 180px;
+    position: absolute;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.76);
+}
+#self1 {
+    right: 290px;
+    top: 180px;
+    height: 250px;
+}
+#self2 {
+    right: 575px;
+    top: 250px;
+    height: 200px;
+}
+#self3 {
+    right: 450px;
+    top: 440px;
+    height: 180px;
+}
+.top-border {
+    background-color: #262626;
+    margin: 0;
+    border: 0;
+    padding: 3px;
+}
+.page-title {
+    background-color: white;
+    width: 50%;
+    margin-bottom: 0;
+}
+.underline {
+    background-color: #cb1a2a;
+    padding: 2px;
+}
+.sub-banner {
+    padding: 0 0 0 200px;
+    margin-left: -20px;
+    background-color: rgba(203, 26, 42, 0.8);
+    border: 0;
+}
+#about-me {
+    padding-right: 15px;
+    font-size: 40;
+    font-weight: 500;
+    color: white;
+    line-height: 50px;
+    text-align: right;
+}
+.skills {
+    position: absolute;
+    right: 60px;
+    top: 350px;
+}
+.languages {
+    font-size: 30;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 3px;
+    width: 210px;
+}
+.skills-bar {
+    display: inline-block;
+    width: 100px;
+    margin: 8px 0 0 0;
+    float: right;
+    height: 10px;
+}
+.skills-name {
+    display: inline-block;
+    font-size: 16;
+    font-weight: 500;
+    margin: 0;
+}
+.skills-subname {
+    font-size: 12;
+    display: block;
+    margin: 0;
+}
+.skills-meter {
+    background-color: #cb1a2a;
+}
+.red-font {
+    color: #cb1a2a;
+    margin: 0;
+}
+.about-paragraph {
+    width: 40%;
+    padding-top: 55px;
+    padding-left: 15px;
+    padding-bottom: 80px;
+    border-right-color: rgba(228, 24, 24, 0.19);
+    border-right-style: solid;
+    padding-right: 20px;
+    border-right-width: 5;
+}
+.portfolio {
+    position: relative;
 }
