@@ -1,9 +1,19 @@
+
+/* To make use of full height of page*/
+html {
+    min-height: 100%;
+    margin: 0;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
 * { padding:0; margin:0}
 .background {
     width: 100%;
     height: 100%;
     background-position: top center;
-    background-size: cover;
     position: relative;
 }
 .about-me {
@@ -12,9 +22,11 @@
 .contrast {
     -webkit-filter: contrast(220%);
     filter: contrast(220%);
+    background-size: cover;
 }
 #titlePage {
-    background: url("../images/background/background1.png") no-repeat fixed;
+    background-size: cover;
+    background: url("../images/background/background1.png") fixed no-repeat;
     position: absolute;
     z-index: -2;
 }
@@ -100,6 +112,7 @@ a.light:hover, a.light:focus {
 }
 .nextPage {
     background-color: white;
+    height: auto;
 }
 .about-text {
     font-family: "Quicksand", sans-serif;
@@ -124,8 +137,9 @@ a.light:hover, a.light:focus {
     top: 0px;
     right: 0px;
     width: 60%;
-    height: 110%;
+    height: 100%;
     float: right;
+    background-size: cover;
     background-image: url("../images/background/background.jpg");
     /*background-color: #e8e8e8;*/
 }
@@ -234,4 +248,22 @@ a.light:hover, a.light:focus {
 }
 .portfolio {
     position: relative;
+}
+.project-scroll {
+    width: 20%;
+    height: 100%;
+    border-top: 10px solid rgb(250, 212, 212);
+    display: inline-block;
+    float: right;
+}
+.project-desc {
+    width: 80%;
+    height: 100%;
+    background-color:aqua;
+    display: inline-block;
+    padding: 100px;
+    border-top: 10px solid rgb(250, 212, 212);
+}
+.project-img {
+    
 }
